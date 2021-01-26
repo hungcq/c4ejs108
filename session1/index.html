@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello world</h1>
+</body>
+<script>
+    // alert('hihi'); crtl /
+    // console.log('abcd');
+    // let x = 5 / 5; // + - * /
+    // console.log(x);
+    // x = 10 * 10;
+    // console.log(x);
+    // let str = '5' + '5';
+    // console.log(str);
+
+    // let input = prompt('nhap lieu');
+    // input = Number(input);
+    // console.log(input + 5);
+
+    // let x = 100;
+    // console.log(typeof(x)); // number
+    // x = x + ''; // x = String(x)
+    // console.log(typeof x); // string
+
+    // bai 1 tinh nam sinh
+    // let input = prompt('nam sinh'); // 1
+    // input = Number(input); // 2
+    // let tuoi = 2021 - input; // 2
+    // alert('Hung nam nay ' + tuoi + ' tuoi'); // 3
+    // tuoi = Math.round(tuoi);
+    // alert(`Hung nam nay ${tuoi} tuoi`); // 3
+    // alert(2021 - input);
+    // let x1 = 10;
+    // let malePercent = 10;
+
+    // bai 2 tinh tong
+    // let x = prompt('so thu nhat');
+    // let y = prompt('so thu hai');
+    // x = Number(x);
+    // y = Number(y);
+    // alert(x + y);
+
+    // alert(Number(prompt('so thu nhat')) 
+    // + Number(prompt('so thu hai')));
+    
+    // {
+    //     let x = 5;
+    //     var y = 10;
+    // }
+    // console.log(y);
+    // console.log(x);
+
+    // bai 3 tinh % so nam nu
+    let male = prompt(`so nam`); // nhap so nam, gan vao bien
+    let female = prompt('so nu');
+    male = Number(male); // chuyen kieu du lieu thanh number
+    female = Number(female);
+    // tinh tong
+    let tong = male + female; // `````` ''''''
+    // tinh phan tram, lam tron
+    let malePercent = Math.round(male / tong * 100);
+    let femalePercent = Math.round(female / tong * 100);
+    alert(`ti le nam: ${malePercent} phan tram`); // in ket qua
+    alert(`ti le nu: ${femalePercent} %`);
+
+</script>
+</html>
