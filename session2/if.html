@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // let tuoi = Number(prompt('nhap tuoi:'));
+    // // tu khoa if(dieu kien)
+    // if (tuoi < 18) {
+    //     console.log('khong cho xem');
+    // // tu khoa else khong can dieu kien
+    // } else if (tuoi >= 18 && tuoi <= 25) {
+    //     console.log('tuoi 18-25');
+    // } else {
+    //     console.log('ok');
+    // }
+
+    // mua
+    // let thang = Number(prompt('nhap thang'));
+    // if (thang >= 1 && thang <= 3) {
+    //     console.log('xuan');
+    // } else if (thang >= 4 && thang <= 6) {
+    //     console.log('ha');
+    // }  else if (thang >= 7 && thang <= 9) {
+    //     console.log('thu');
+    // } else if (thang >= 10 && thang <= 12) {
+    //     console.log('dong');
+    // } else {
+    //     console.log('thang khong hop le');
+    // }
+
+    let username = prompt('nhap username');
+    let password = prompt('nhap password');
+
+    if (username === 'mindx') {
+        if (password === '123456') {
+            alert('dang nhap thanh cong');
+        } else {
+            alert('sai password');
+        }
+    } else {
+        alert('sai username');
+    }
+    if (username === 'mindx' && password === '123456') {
+        alert('dang nhap thang cong');
+    } else if (username !== 'mindx') {
+        alert('sai username');
+    } else if (username === 'mindx' && password !== '123456') {
+        alert('sai password');
+    }
+</script>
+</html>
