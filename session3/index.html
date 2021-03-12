@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body></body>
+  <script>
+    //d)
+    // doc input
+    // let n = Number(prompt("Nhap vao so n"));
+    // for (let i = 0; i < n; i++) {
+    //     if (i % 2 === 0) {
+    //         console.log("0");
+    //     } else {
+    //         console.log("1");
+    //     }
+    // }
+
+
+    // let user3 = 'phuc'
+    // let user4 = 'loc'
+
+    // // khai bao mang co phan tu
+    // let user2 = 'phong';
+    // let array = ['hung', user2, 'loc', 'phuc'];
+    // array.push('khanh');
+
+    // console.log(array);
+
+    // // duc
+    // let input = prompt('nhap ten');
+    // array[3] = input;
+
+    // console.log(array);
+
+    // array.splice(2, 2);
+
+    // // hung phong khanh
+    // console.log(array);
+
+    // // 3 phan tu, phan tu cuoi index = 2, length = 3;
+    // for (let i = array.length - 1; i >= 0; i--) {
+    //     console.log(array[i]);
+    // }
+
+    let array = ['a', 'b', 'c', 'd'];
+    console.log(array);
+
+    // c, b, a
+    // swap value
+
+    // array[0] ~ x
+    // tmp = x;
+    // x = y;
+    // y = tmp;
+    // doc array[0], gan cho bien tmp
+    let tmp = array[0];
+    // update array[0], gan = gia tri cua array[2]
+    array[0] = array[2];
+    // gan gia tri cua array[2] = tmp (array[0] ban dau)
+    array[2] = tmp;
+
+    // end swap value
+    
+    console.log(array); //c, b, a, d
+  </script>
+</html>

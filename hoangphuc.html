@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    //3. 
+        //a.
+        let message = `Coding is great`;
+            message = String(message);
+            console.log(message);
+        //b.
+            let studentCount = 0;
+            // studentCount = Number(studentCount);
+            console.log(studentCount);
+
+    //4.
+        //a.
+            message = `Coding might not be easy, but still great`;
+            console.log(message);
+        //b.
+            studentCount = 16;
+            console.log(studentCount);
+        //c.
+
+            let lowercase = message.toLowerCase();
+            console.log(lowercase);
+        //d.
+            studentCount = studentCount + 1;
+            console.log(studentCount);
+
+    //5.
+        let bai_5 = (`You look beautiful today`);
+        // bai_5 = String(bai_5);
+        console.log(bai_5);
+        alert (bai_5);
+            
+    //6.
+        let bai6 = prompt (`Hi there, your name please? `);
+        // bai6 = String(bai6);
+        console.log(bai6);
+        alert(`Hello ${bai6} Nice to meet you`);
+        
+
+    //7.
+        let firstName = prompt (`Enter your first name: `);
+        // firstName = String(firstName);
+        console.log(firstName);
+        let lastName = prompt (`Enter your last name`);
+        // lastName = String(lastName);
+        console.log(lastName);
+        alert(`Xin chào ${lastName} ${firstName}`);
+
+    //8.
+        // input
+        let lengthOfSquare = prompt(`Enter side length of the square: `);
+        // chuyen thanh so
+        lengthOfSquare = Number(lengthOfSquare);
+        console.log(lengthOfSquare);
+
+        // tinh dien tich canh * canh
+        let areaOfSquare = lengthOfSquare * lengthOfSquare;
+        console.log(areaOfSquare);
+        // in ket qua
+        alert(`The square area is ${areaOfSquare}`);
+
+    //9.
+        let radiusOfCircle = prompt (` Enter the radius of the circle: `);
+        radiusOfCircle = Number(radiusOfCircle);
+        console.log(radiusOfCircle);
+        
+        // ** = ^
+        let areaOfCircle = Math.PI * ((radiusOfCircle)**2);
+        console.log(areaOfCircle);
+
+        alert(`The circle area is ${areaOfCircle} `);
+
+    //10.
+        let doC = prompt (`Enter the temperature in Celcius: `);
+        doC = Number(doC);
+        console.log(doC);
+
+        let doF = doC * 1.8 + 32;
+        console.log(doF);
+
+        alert(`${doC} (C) = ${doF} (F)`);
+
+</script>
+</html>
