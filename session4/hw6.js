@@ -21,17 +21,18 @@ const tasks = [
     },
 ]
 
-while (true) {
+for (let i = 0; i < 10; i++) {
     //6.1
-    console.log('Hi there, this is your tasks:');
+    let str = 'Hi there, this is your tasks:'
     for (let i = 0; i < tasks.length; i++) {
         const task = tasks[i];
         let check = '[ ]';
         if (task.completed) {
             check = '[x]';
         }
-        console.log(`${i + 1}. ${check} ${task.name}`);
+        str += `\n${i + 1}. ${check} ${task.name}`;
     }
+    alert(str);
     
     // 6.2 6.3 6.4
     const command = prompt('Enter a command (new, delete, update, complete):');
