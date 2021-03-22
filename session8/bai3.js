@@ -1,3 +1,4 @@
+// get DOM elements
 let reloadButton = document.getElementById("reloadButton");
 
 let quoteHeading = document.getElementById("quoteHeading");
@@ -273,11 +274,19 @@ let quotes = [
 
 randomQuote();
 
+// xu ly logic
+// khi nguoi dung click reload button
+// goi ham callback randomQuote
 reloadButton.addEventListener("click", randomQuote);
 
-function randomQuote () {
-    let index = Math.floor(quotes.length * Math.random());
-    let quote = quotes[index];
-    quoteHeading.innerHTML = quote.quoteText;
-    authorText.innerHTML = quote.quoteAuthor;
+function randomQuote() {
+    // lam tron xuong  (return so 0-34)
+    //                   chieu dai array 35     tra ve 1 so 0-1
+    // index luon nam trong khoang tu 0-34
+  let index = Math.floor(quotes.length      * Math.random());
+  // lay phan tu ung voi index do'
+  let quote = quotes[index];
+  // update trang web
+  quoteHeading.innerHTML = quote.quoteText;
+  authorText.innerHTML = quote.quoteAuthor;
 }
