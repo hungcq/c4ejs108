@@ -263,17 +263,18 @@
 
         // //Bài 7: Tìm số trong mảng
             
-        //     const arr =  [3, 4, 6, -9, 10, -88, 2];
-        //     console.log(arr);
+            const arr =  [3, 4, 6, -9, 10, -88, 2];
+            console.log(arr);
 
-        //     let nhap = Number(prompt(' Enter a number: '));
+            let nhap = Number(prompt(' Enter a number: '));
 
-        //     if (arr.indexOf(nhap) < 0){
-        //         alert ('Khong tồn tại');
-        //     }
-        //     else if (arr.indexOf(nhap) >= 0) {
-        //         alert('Có tồn tại');
-        //     }
+            let index = arr.indexOf(nhap);
+            if (index < 0){
+                alert ('Khong tồn tại');
+            }
+            else if (arr.indexOf(nhap) >= 0) {
+                alert('Có tồn tại. index = ' + index);
+            }
 
 
         //Bài 8: Quản lý đàn cừu:

@@ -1,0 +1,11 @@
+div {
+    background-color: #00ff00;
+}
+
+.custom-font {
+    font-size: 24px;
+}
+
+[type="password"] {
+    border: solid gray 10px;
+}
